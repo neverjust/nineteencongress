@@ -1,8 +1,8 @@
 .DS_Store
 */.DS_Store
 database.php
-public/uploads/
-public/articles/
-runtime/cache/
-runtime/log/
-runtime/temp/
+/public/uploads/*
+/public/articles/*
+/runtime/cache/*
+/runtime/log/*
+/runtime/temp/*
