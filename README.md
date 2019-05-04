@@ -2,165 +2,29 @@
 
 - 无特别说明，API返回值及前端传递的值均为json格式
 
-## 状态码
-
-| 状态码 | 解释       |
-| ------ | ---------- |
-| 0      | 成功       |
-| 1      | 缺少参数   |
-| 2      | 数据不存在 |
 
 
+## 配置环境
 
-## Artical
+1. php(ThinkPHP)、mysql、nginx
 
-> 功能：获取文章信息
+2. 配置nginx时需要开启对php的path_info支持：
 
-#### getArticles
+   ```nginx
+           location ~ \.php(.*)$ {
+               fastcgi_pass 127.0.0.1:9000;
+               fastcgi_index index.php;
+               fastcgi_split_path_info ^((?U).+\.php)(/?.+)$;
+               fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+               fastcgi_param PATH_INFO $fastcgi_path_info;
+               fastcgi_param PATH_TRANSLATED $document_root$fastcgi_path_info;
+               include fastcgi_params;
+           }
+   ```
 
-- 获取所有文章的信息
-
-request:
-
-```php
-//空
-```
-
-return:
-
-```json
-{
-    'data':[
-        {
-        'id':int,
-        'title':string
-        }
-        ........
-    ],
-    'errorCode':int, 
-    'errorMsg':string
-}
-```
-
-#### getArticleDetail
-
-- 获取指定文章的具体信息
-
-request:
-
-```jso
-{
-    'id':int
-}
-```
-
-return:
-
-```json
-{
-    'data':{
-        'id':int,
-        'title':string
-        .......
-    },
-    'errorCode':int, 
-    'errorMsg':string
-}
-```
-
-
-
-## Video
-
-> 功能：获取视频信息
-
-#### getVideos
-
-- 获取所有文章的信息
-
-request:
-
-```php
-//空
-```
-
-return:
-
-```json
-{
-    'data':[
-        {
-        'id':int,
-        'title':string,
-        'author':string,
-        'institude':string,
-        'pic_path':string
-        }
-        ......
-    ],
-    'errorCode':int, 
-    'errorMsg':string
-}
-```
-
-#### getArticleDetail
-
-- 获取指定文章的具体信息
-
-request:
-
-```jso
-{
-    'id':int
-}
-```
-
-return:
-
-```json
-{
-    'data':{
-        'id':int,
-        'title':string,
-        'author':string,
-        'institude':string,
-        'pic_path':string,
-        'video_path':string
-    },
-    'errorCode':int, 
-    'errorMsg':string
-}
-```
-
-
-
-## Pic
-
-> 功能：获取图片
-
-#### getPictures
-
-- 获取最后四张图片的信息
-
-request:
-
-```php
-//空
-```
-
-return:
-
-```json
-{
-    'data':[
-        {
-        'id':int,
-        'image':string,
-        }
-        ......
-    ],
-    'errorCode':int, 
-    'errorMsg':string
-}
-```
+3. 后台目录为 项目根目录 ./ 入口文件为 ./public/admin.php
+4. 前端目录为 ./public/static 入口文件为 ./public/static/index.html
+5. **因为上传文件大小的问题 需要更改php.ini的上传限制为1024mb**
+6. thinkphp框架的权限设置 public 和 runtime文件夹的权限
+7. 数据库配置在 ./application/database.php
 
