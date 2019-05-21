@@ -24,7 +24,6 @@
 
 3. 后台目录为 项目根目录 ./ 入口文件为 ./public/admin.php
 4. 前端目录为 ./public/static 入口文件为 ./public/static/index.html
-5. **因为上传文件大小的问题 需要更改php.ini的上传限制为1024mb**
-6. thinkphp框架的权限设置 public 和 runtime文件夹的权限
-7. 数据库配置在 ./application/database.php
+5. thinkphp框架的权限设置 public 和 runtime文件夹的权限
+6. 数据库配置在 ./application/database.php
 
