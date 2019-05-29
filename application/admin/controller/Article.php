@@ -39,8 +39,9 @@ class Article extends Backend
 
     public function test()
     {
-        $article = Db::table('fa_article')->find(25);
-        var_dump($article);
+        $url = "https://news.uestc.edu.cn/?n=UestcNews.Front.Document.ArticlePage&Id=64477";
+        $data = $this->model->saveArticle($url);
+        var_dump($data);
     }
 
     /**

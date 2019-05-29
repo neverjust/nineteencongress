@@ -272,3 +272,754 @@
 [ sql ] [ SQL ] SELECT * FROM `fa_article` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000424s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.002672s ]
 [ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '[]' , '/dashboard/nineteencongress/public/admin/article/test' , 0 , 'Unknown' , 'PostmanRuntime/7.11.0' , '0.0.0.0' , 1559136908) [ RunTime:0.001330s ]
+---------------------------------------------------------------
+[ 2019-05-29T22:43:07+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：0.068691s] [吞吐率：14.56req/s] [内存消耗：3,472.93kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000047s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001810s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1c27afd4-ea97-4cf2-bc75-d6c806a93a99',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002271s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[/Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php:42]
+---------------------------------------------------------------
+[ 2019-05-29T22:43:42+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.182867s] [吞吐率：0.85req/s] [内存消耗：4,164.48kb] [文件加载：107]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001589s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0d7ea17c-17e2-448f-8a8c-0f6c38b0ccd6',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002176s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/model/Article.php:56]
+---------------------------------------------------------------
+[ 2019-05-29T22:48:15+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.138089s] [吞吐率：0.88req/s] [内存消耗：4,157.17kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001699s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2524d342-3edb-418e-9cac-8cdc10119005',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001815s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:48:54+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.242753s] [吞吐率：0.80req/s] [内存消耗：4,157.54kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000703s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002296s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e5a4dc99-412c-41cb-a40f-28126dc77495',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001887s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:50:16+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：0.899930s] [吞吐率：1.11req/s] [内存消耗：4,173.54kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002212s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '15c862da-0f3c-416a-ab70-b599d49b7dcd',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002782s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:50:33+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.204099s] [吞吐率：0.83req/s] [内存消耗：4,173.17kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001215s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4fd6f5c1-012e-41ac-8226-20e2328cbb59',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001316s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:51:22+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.397913s] [吞吐率：0.72req/s] [内存消耗：4,172.80kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001360s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '59c0277f-f540-4f12-8457-0ba454db5f50',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001311s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:51:40+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.171588s] [吞吐率：0.85req/s] [内存消耗：4,173.54kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001295s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fbfe6198-bb5f-4be8-b41c-aad7cf3872ae',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001266s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:52:05+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.365898s] [吞吐率：0.73req/s] [内存消耗：4,173.17kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000100s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002013s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '18d9d4ad-35bd-4a15-abe1-780645d67222',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001431s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:55:28+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.102037s] [吞吐率：0.91req/s] [内存消耗：4,173.54kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001827s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '068cc2e1-ffbf-4a65-848c-a8353db0775f',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001649s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:56:21+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.016032s] [吞吐率：0.98req/s] [内存消耗：4,165.88kb] [文件加载：107]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001281s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b26f56d3-402b-4620-af6f-4a13f5b0c547',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001348s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class GuzzleHttp\Psr7\Response could not be converted to string[/Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/model/Article.php:54]
+---------------------------------------------------------------
+[ 2019-05-29T22:56:35+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.155067s] [吞吐率：0.87req/s] [内存消耗：4,200.80kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000709s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001153s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '891a0d4c-f7cf-4981-842a-9a4ce0d15f1c',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001432s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T22:56:52+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.161679s] [吞吐率：0.86req/s] [内存消耗：4,195.69kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001355s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '82d45219-eb37-4021-a341-d3e9f3602603',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001557s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.010357s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.004071s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '[]' , '/dashboard/nineteencongress/public/admin/article/test' , 0 , 'Unknown' , 'PostmanRuntime/7.11.0' , '0.0.0.0' , 1559141812) [ RunTime:0.002823s ]
+---------------------------------------------------------------
+[ 2019-05-29T22:57:24+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.005482s] [吞吐率：0.99req/s] [内存消耗：4,164.48kb] [文件加载：107]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001016s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee8bb2e7-6f75-4852-b59c-853abf7c2139',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001242s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/model/Article.php:56]
+---------------------------------------------------------------
+[ 2019-05-29T22:57:42+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：0.984729s] [吞吐率：1.02req/s] [内存消耗：4,200.80kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000020s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001322s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2465f2bf-8d25-4b71-a020-3ae66de90fc9',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001490s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T23:00:29+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：0.925420s] [吞吐率：1.08req/s] [内存消耗：4,200.81kb] [文件加载：102]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001869s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '22cada23-3afc-4afc-8360-8d7de2bb70e1',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001520s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-05-29T23:00:37+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：0.932595s] [吞吐率：1.07req/s] [内存消耗：4,164.48kb] [文件加载：107]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001034s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd100ade2-c4b3-4e7c-9893-2f83314927d0',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001334s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1[/Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/model/Article.php:58]
+---------------------------------------------------------------
+[ 2019-05-29T23:01:46+08:00 ] 0.0.0.0 POST localhost/dashboard/nineteencongress/public/admin/article/test
+[运行时间：1.038709s] [吞吐率：0.96req/s] [内存消耗：4,179.70kb] [文件加载：105]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001870s ]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.11.0',
+  'accept' => '*/*',
+  'cache-control' => 'no-cache',
+  'postman-token' => '199cc98a-b9de-4855-b227-610f007c21c0',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=qmh4p3isrp3mujk7hs187ld405',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001605s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Article->test[ /Applications/XAMPP/xamppfiles/htdocs/dashboard/nineteencongress/application/admin/controller/Article.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.009706s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.003164s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('' , '[]' , '/dashboard/nineteencongress/public/admin/article/test' , 0 , 'Unknown' , 'PostmanRuntime/7.11.0' , '0.0.0.0' , 1559142106) [ RunTime:0.003280s ]

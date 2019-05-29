@@ -50,9 +50,11 @@ class Article extends Model
     {
         $client = new \GuzzleHttp\Client();
         $response = $client->get($url);
-        $html = $response->getBody();
+        $html = (string)$response->getBody();
+        // var_dump((string)$html);
+        // exit();
         if ($type == 1) {
-            preg_match("/<!-- 标题 -->(\S+)<\/h1>/",$html,$result);
+            preg_match("/<!-- 标题 -->([\s\S]*)<\/h1>/",$html,$result);
             $title = $result[1];
             preg_match("/[0-9]{4}-[0-9]{2}-[0-9]{2}/",$html,$result);
             $date = $result[0];
