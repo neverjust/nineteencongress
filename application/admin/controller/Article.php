@@ -39,8 +39,8 @@ class Article extends Backend
 
     public function test()
     {
-        $name = md5(uniqid(microtime(true),true)).".html";
-        $this->writeFile($name,"111");
+        $article = Db::table('fa_article')->find(25);
+        var_dump($article);
     }
 
     /**
@@ -126,7 +126,6 @@ class Article extends Backend
                     $params['content'] = $data['content'];
                     $params['date'] = $data['date'];
                     $name = md5(uniqid(microtime(true),true)).".html";
-                    $this->writeFile($name,$params['content']);
                     $params['article_path'] = "/articles/".$name;
                     $result = $this->model->allowField(true)->save($params);
                     if ($result !== false) {
